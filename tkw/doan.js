@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     const page = window.location.pathname.split("/").pop();
     setActiveNavbar(page);
-    if (page === "index.html") {
+    if (page === "trangchu.html") {
         handleTrangChu();
     } else if (page === "khampha.html") {
         handleKhamPha();
