@@ -43,7 +43,6 @@ function handleTrangChu() {
 
             if (iframeSrc === currentMedia) {
                 mediaContainer.innerHTML = '';
-                mainContent.style.backgroundImage = '';
                 this.classList.remove("active");
                 currentMedia = null;
                 return;
